@@ -17,7 +17,7 @@ namespace Task_5
             {
                 for (int j = 0; j < n; j++)
                 {
-                    array[i, j] = ((i == j) || (i + j == n - 1) || (i + j == n - 3) || (i + j == n + 1)) ? 1: 0;
+                    array[i, j] = ((i == j) || (i + j == n - 1) || (i + j == n /2) || (i + j == n +(n/2 - 1))) ? 1: 0;;
                     Console.Write("{0} ", array[i, j]);
                 }
             Console.WriteLine();
