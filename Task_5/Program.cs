@@ -10,7 +10,7 @@ namespace Task_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введиет размерность массива");
+            Console.WriteLine("Введите размерность массива");
             int n = Convert.ToInt32(Console.ReadLine());
             int[,] array = new int[n,n];
             for (int i = 0; i < n; i++)
